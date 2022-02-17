@@ -1,0 +1,8 @@
+@import './utilities/breakpoints';
+@import './utilities/variables';
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}

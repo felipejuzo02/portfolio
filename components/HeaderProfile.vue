@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <div v-for="(technology, index) in teste" :key="index">
-      <img :src="technologyImage(technology).image" alt="">
-    </div>
+  <div class="teste">
+    testes
   </div>
 </template>
 
@@ -17,16 +15,17 @@ export default {
   },
 
   computed: {
-    teste () {
-      return [
-        'javascript',
-        'html'
-      ]
-    }
   },
 
   created () {
-    console.log(this.technologyImage('javascript'))
   }
 }
 </script>
+
+<style lang="scss">
+@import '~/assets/scss/application.scss';
+
+.teste {
+  color: $primary;
+}
+</style>
