@@ -11,6 +11,8 @@ $sizes: ("xs": "4px" ,"sm": "8px", "md": "16px", "lg": "32px", "xl": "64px");
         #{$value} : 0 #{$sizeValue};
       } @else if $name == "my" or $name == "py" {
         #{$value} : #{$sizeValue} 0;
+      } @else if $name == "pa" or $name == "ma" {
+        #{$value} : #{$sizeValue};
       } @else {
         #{$value}: #{$sizeValue};
       }

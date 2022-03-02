@@ -1,7 +1,10 @@
 :root{
-  --primary: blue;
-  --secondary: red;
+  --primary:  #008F75;
+  --secondary:#00B292;
 }
 
 $primary:      var(--primary);
 $secondary:    var(--secondary);
+
+$black:        #1f1f1f;
+$white:        #eee;
